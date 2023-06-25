@@ -9,6 +9,9 @@ body{
 .topo{
 background-color: #00cad1;
 }
+.container{
+
+}
 .topo-container{
     max-width: 1024px;
     height: 80px;
@@ -50,4 +53,31 @@ background-color: #00cad1;
 }
 .banner-container h2{ 
 font-weight: 100;
+}
+
+.sobre-container{
+    margin: auto;
+    max-width: 1024px;
+}
+
+.sobre-sub1{
+    text-align: center;
+    color: grey;
+    margin:0  0 35px 0;
+}
+.sobre-sub1 h2{
+    color: grey;
+    margin: 30px;
+}
+.sobre-sub2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    color: grey
+}
+.sobre-sub2 h3{
+    margin: 20px
+}
+.sobre-sub2 li{
+    height: 30px;
 }
