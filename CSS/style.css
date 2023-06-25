@@ -10,8 +10,10 @@ body{
 background-color: #00cad1;
 }
 .container{
-
+    margin: auto;
+    max-width: 1024px;
 }
+
 .topo-container{
     max-width: 1024px;
     height: 80px;
@@ -55,10 +57,7 @@ background-color: #00cad1;
 font-weight: 100;
 }
 
-.sobre-container{
-    margin: auto;
-    max-width: 1024px;
-}
+
 
 .sobre-sub1{
     text-align: center;
