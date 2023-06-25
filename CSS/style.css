@@ -5,6 +5,7 @@ body{
     padding:0;
     margin:0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .topo{
 background-color: #00cad1;
@@ -15,9 +16,7 @@ background-color: #00cad1;
 }
 
 .topo-container{
-    max-width: 1024px;
     height: 80px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -44,39 +43,54 @@ background-color: #00cad1;
     background-position: center;
 }
 .banner-container{
-    margin: auto;
-    max-width: 1024px;
     height: 100%;
     display: flex;
     align-items: center;
-
     color:white;
     font-size: 30px;
 }
 .banner-container h2{ 
-font-weight: 100;
+    font-weight: 100;
 }
 
-
-
-.sobre-sub1{
+.sobre-sub{
+    display: flex;
     text-align: center;
     color: grey;
     margin:0  0 35px 0;
+    justify-content: space-evenly;
 }
-.sobre-sub1 h2{
+.f_column{
+    display: flex;
+    flex-direction: column !important;
+}
+.sobre-sub h2{
     color: grey;
     margin: 30px;
 }
-.sobre-sub2{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    color: grey
-}
-.sobre-sub2 h3{
+
+.sobre-sub h3{
     margin: 20px
 }
-.sobre-sub2 li{
-    height: 30px;
+.sobre-sub li{
+    height: 25px;
+}
+.sobre-sub a {
+    text-decoration: none;
+    color:white;
+    padding: 10px 25px;
+    background-color:#00cad1 ;
+}
+.espec-img {
+    box-shadow: 0 0 10px rgb(85, 84, 84);
+    border-radius: 1%;
+}
+.espec-img img{
+    width: 300px;
+    height: 200px;
+
+    background-size: contain;
+}
+.espec-img figcaption{
+    padding: 5px;
 }
