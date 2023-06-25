@@ -108,3 +108,20 @@ background-color: #00cad1;
 .espec-img figcaption{
     padding: 5px;
 }
+.footer{
+    display: flex;
+    height: 50vh;
+    background-color: #0d6e71;
+}
+.footer .container{
+    justify-self: center;
+}
+.footer .container p{
+    padding: 10px;
+}
+.footer .sobre-sub {
+    align-self: center;
+    color: white;
+    margin: 0;
+    background-color: #0d6e71;
+}
