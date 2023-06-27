@@ -9,14 +9,15 @@ body{
 }
 .topo{
 background-color: #00cad1;
+
 }
 .container{
     margin: auto;
     max-width: 1024px;
+    height: fit-content;
 }
 
 .topo-container{
-    height: 80px;
     display: flex;
     justify-content: space-between;
 }
@@ -35,7 +36,7 @@ background-color: #00cad1;
 }
 
 .banner{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 
     background-image: url('../assets/recepcao.png');
@@ -59,6 +60,7 @@ background-color: #00cad1;
     color: grey;
     margin:0  0 35px 0;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .f_column{
     display: flex;
@@ -95,7 +97,8 @@ background-color: #00cad1;
     padding: 10px 25px;
     background-color:#00cad1 ;
 }
-.espec-img {
+.espec-img {    
+   
     box-shadow: 0 0 10px rgb(85, 84, 84);
     border-radius: 1%;
 }
@@ -125,3 +128,35 @@ background-color: #00cad1;
     margin: 0;
     background-color: #0d6e71;
 }
+
+
+
+@media (max-width: 425px) {
+    .nav{
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .nav a{
+        font-size: 12px;
+    }
+
+    .topo-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin-bottom: 10px;
+        border-bottom: 1px solid rgb(143, 143, 143);
+    }
+    .logo img{
+        transform: scale(.8);
+    }
+
+}
+
+@media (max-width: 768px){}
