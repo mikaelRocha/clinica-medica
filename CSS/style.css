@@ -133,6 +133,7 @@
   }
   
   .box-sobre img {
+    display: none;
     height: 250px;
   }
   
@@ -179,13 +180,25 @@
     .topo .container {
         flex-direction: column;
     }
+    .box-visao-geral{
+        height: 200px;
+    }
   }
   @media (min-width:426px) and (max-width:768px){
-
+    .box-visao-geral{
+        height: 300px;
+    }
   }
   @media (min-width:769px) and (max-width: 1024px){
-
+    .box-sobre img{
+        display: block;
+    }
+    .box-visao-geral{
+        height: 400px;
+    }
   }
   @media (min-width:1025px) {
-    
+    .box-visao-geral{
+        height: 500px;
+    }
   }
